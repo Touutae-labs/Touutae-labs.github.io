@@ -1,6 +1,9 @@
-# The website based on @Dev-folio
+# Touutae Lab
 
-## Detail
+Static personal portfolio focused on frontend craft, systems thinking, and selected work.
 
-- Host on Pantakan.com DNS by Cloudflare
-- Implement with SCSS & HTML
+## Stack
+
+-   HTML
+-   CSS
+-   GitHub Pages

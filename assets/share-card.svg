@@ -1,0 +1,61 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#09131D"/>
+  <rect width="1200" height="630" fill="url(#paint0_radial)"/>
+  <rect width="1200" height="630" fill="url(#paint1_radial)"/>
+  <rect width="1200" height="630" fill="url(#paint2_linear)"/>
+  <g opacity="0.24">
+    <path d="M0 74H1200" stroke="white"/>
+    <path d="M0 214H1200" stroke="white"/>
+    <path d="M0 354H1200" stroke="white"/>
+    <path d="M0 494H1200" stroke="white"/>
+    <path d="M154 0V630" stroke="white"/>
+    <path d="M454 0V630" stroke="white"/>
+    <path d="M754 0V630" stroke="white"/>
+    <path d="M1054 0V630" stroke="white"/>
+  </g>
+  <rect x="92" y="88" width="1016" height="454" rx="40" fill="url(#paint3_linear)" fill-opacity="0.74" stroke="#FFFFFF" stroke-opacity="0.14"/>
+  <circle cx="980" cy="214" r="126" fill="url(#paint4_radial)" fill-opacity="0.72"/>
+  <circle cx="840" cy="384" r="76" fill="url(#paint5_radial)" fill-opacity="0.55"/>
+  <rect x="140" y="132" width="138" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16"/>
+  <circle cx="167" cy="152" r="9" fill="url(#paint6_linear)"/>
+  <text x="192" y="158" fill="#F5F7FF" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="0.2em">TOUUTAE LAB</text>
+  <text x="140" y="272" fill="#F5F7FF" font-family="Georgia, serif" font-size="86" font-weight="700">Personal portfolio</text>
+  <text x="140" y="360" fill="url(#paint7_linear)" font-family="Georgia, serif" font-size="86" font-weight="700">and selected work.</text>
+  <text x="140" y="430" fill="#A9B6C8" font-family="Helvetica, Arial, sans-serif" font-size="28">A small place for calm interfaces, playful themes, and projects I enjoy building.</text>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(215 120) rotate(41.6181) scale(488.854 326.272)">
+      <stop stop-color="#FF9CC5" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#FF9CC5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(978 132) rotate(130.522) scale(421.397 302.697)">
+      <stop stop-color="#B9FFD5" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#B9FFD5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="paint2_linear" x1="600" y1="0" x2="600" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1721" stop-opacity="0"/>
+      <stop offset="1" stop-color="#122535"/>
+    </linearGradient>
+    <linearGradient id="paint3_linear" x1="600" y1="88" x2="600" y2="542" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.05"/>
+    </linearGradient>
+    <radialGradient id="paint4_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 214) rotate(90) scale(126)">
+      <stop stop-color="#FFB38A"/>
+      <stop offset="1" stop-color="#FFB38A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="paint5_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(840 384) rotate(90) scale(76)">
+      <stop stop-color="#9FC8FF"/>
+      <stop offset="1" stop-color="#9FC8FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="paint6_linear" x1="158" y1="143" x2="176" y2="161" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB38A"/>
+      <stop offset="1" stop-color="#B9FFD5"/>
+    </linearGradient>
+    <linearGradient id="paint7_linear" x1="140" y1="298" x2="810" y2="408" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB38A"/>
+      <stop offset="0.34" stop-color="#FFE0CF"/>
+      <stop offset="0.7" stop-color="#9FC8FF"/>
+      <stop offset="1" stop-color="#B9FFD5"/>
+    </linearGradient>
+  </defs>
+</svg>

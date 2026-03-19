@@ -4,380 +4,308 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-        <!-- Optimized Title: Include name and profession for better targeting -->
-        <title>Pantakan Kanprawet | Software Engineer</title>
-
-        <!-- Enhanced Keywords: Include a mix of relevant keywords -->
-        <meta name="keywords" content="Pantakan Kanprawet, Software Engineer, DevOps, Programming, Developer, Tech, Engineering, IT Professional" />
-
-        <!-- Improved Description: Make it more descriptive for better search visibility -->
-        <meta name="description" content="Discover the professional world of Pantakan Kanprawet, a dedicated Software Engineer and DevOps Specialist. Explore my projects, skills, and insights into software development and engineering." />
-
-        <!-- Favicon -->
-        <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
-
-        <!-- Theme Color: Keep as is or adjust to match your brand -->
-        <meta name="theme-color" content="#36d1dc" />
-
-        <!-- Open Graph / Facebook: Improved for better sharing outcomes -->
+        <title>PANTAKAN — Solo Dev</title>
+        <meta
+            name="keywords"
+            content="Pantakan Kanprawet, Touutae, solo developer, indie dev, rytry.gg, peachy themes, full-stack, blockchain"
+        />
+        <meta
+            name="description"
+            content="Solo developer who ships real products. Built rytry.gg, Peachy Themes, and more."
+        />
+        <meta name="theme-color" content="#0a0a0a" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://pantakan.com/" />
-        <meta property="og:title" content="Pantakan Kanprawet | Software Engineer & DevOps Specialist" />
-        <meta property="og:description" content="Explore Pantakan Kanprawet's journey as a Software Engineer and DevOps Specialist. Dive into my portfolio of projects, professional skills, and contributions to the tech world." />
-        <meta property="og:image" content="./assets/thumbnail.png" />
-
-        <!-- Twitter: Optimized for Twitter sharing -->
+        <meta property="og:title" content="PANTAKAN — Solo Dev" />
+        <meta
+            property="og:description"
+            content="Solo developer who ships real products. Built rytry.gg, Peachy Themes, and more."
+        />
+        <meta
+            property="og:image"
+            content="https://pantakan.com/assets/share-card.svg"
+        />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://pantakan.com/" />
-        <meta property="twitter:title" content="Pantakan Kanprawet | Software Engineer & DevOps Specialist" />
-        <meta property="twitter:description" content="Join Pantakan Kanprawet in exploring innovative solutions in software engineering and DevOps. Check out my portfolio for a deep dive into my work and accomplishments." />
-        <meta property="twitter:image" content="./assets/thumbnail.png" />
-
-        <!-- Add Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y7YYZ6M969"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-    
-            gtag('config', 'G-Y7YYZ6M969');
-        </script>
-
-        <!-- CSS Links -->
+        <meta property="twitter:title" content="PANTAKAN — Solo Dev" />
+        <meta
+            property="twitter:description"
+            content="Solo developer who ships real products. Built rytry.gg, Peachy Themes, and more."
+        />
+        <meta
+            property="twitter:image"
+            content="https://pantakan.com/assets/share-card.svg"
+        />
+        <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        />
         <link rel="stylesheet" href="./style.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     </head>
-
     <body>
-        <!-- Navigation -->
-        <div class="navigation">
-            <label for="navi-toggle" class="navigation__button">
-                <span class="navigation__icon"
-                    ><text class="navigation__visible">HI</text></span
-                >
-            </label>
-            <input
-                id="navi-toggle"
-                type="checkbox"
-                class="navigation__checkbox"
-            />
-            <div class="navigation__background">&nbsp;</div>
-            <nav class="navigation__nav">
-                <ul class="navigation__list">
-                    <li id="__about" class="navigation__item">
-                        <a href="#about" class="navigation__link">About Me</a>
-                    </li>
-                    <li id="__project" class="navigation__item">
-                        <a href="#projects" class="navigation__link">Project</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a
-                            href="https://www.linkedin.com/in/pantakan-kanprawet/"
-                            class="navigation__link"
-                            >Get In touch</a
-                        >
-                    </li>
-                    <li id="__contact" class="navigation__item">
-                        <a href="#contact" class="navigation__link">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <!-- Hero Section -->
-        <div id="hero">
-            <section class="container">
-                <h1 class="hero-title">
-                    Hi, my name is
-                    <span class="text-color-main name">Patakan Kanprawet</span>
-                    <br />
-                    I'm Software Engineer.
-                </h1>
-                <p class="hero-cta">
-                    <a class="cta-btn cta-btn--hero" href="#popup"
-                        >Get in touch</a
-                    >
-                </p>
-            </section>
-            <a href="#about" class="scroll-down-link" aria-label="scroll-down">
-                <div class="scroll-down"></div>
-            </a>
-        </div>
-        <!-- /END Hero Section -->
+        <div class="noise"></div>
 
-        <!-- About Section -->
-        <section id="about">
-            <div class="container">
-                <h2 class="section-title">About Me</h2>
-                <div class="row about-wrapper">
-                    <div class="about-wrapper__image">
-                        <img
-                            class="img-fluid"
-                            src="./assets/profile.jpg"
-                            alt="Profile Image"
-                        />
-                    </div>
-                    <div class="about-wrapper__info">
-                        <div class="about-wrapper__info-text-wrapper">
-                            <p class="about-wrapper__info-text">
-                                Welcome to my personal website! My name is
-                                Pantakan Kanprawet and I am a developer from
-                                Thailand. I hold a degree in Computer Science
-                                from Chiang Mai University and have been study
-                                in the field for several years.
-                            </p>
-                            <p class="about-wrapper__info-text">
-                                Hi there! I'm a developer who really loves
-                                digging into Cloud Native Architecture and
-                                Database Automation. I get a kick out of coming
-                                up with clever, efficient solutions that make
-                                our clients' lives easier. Technology, to me,
-                                isn't just a job – it's a passion. I make it my
-                                mission to keep up with the latest in the field
-                                so I can provide the most up-to-date and
-                                innovative solutions possible. Take a look
-                                around my website. You'll find my portfolio
-                                where I showcase some of the cool projects I've
-                                worked on, as well as my blog where I share
-                                thoughts, ideas, and insights. 
-                            </p>
-                        </div>
-                        <span class="about-wrapper__cta">
-                            <a
-                                href="./assets/file/Pantakan Kanprawet.pdf"
-                                target="_blank"
-                                class="cta-btn cta-btn--resume"
-                                >View Resume</a
-                            >
-                        </span>
-                    </div>
-                </div>
+        <header class="site-header">
+            <div class="container header-bar">
+                <a class="brand" href="#top">PANTAKAN<span class="blink">_</span></a>
+                <nav class="nav" aria-label="Primary">
+                    <a href="#projects">[PROJECTS]</a>
+                    <a href="#about">[ABOUT]</a>
+                    <a href="#contact">[CONTACT]</a>
+                </nav>
             </div>
-        </section>
-        <!-- /END About Section -->
+        </header>
 
-        <!--Projects Section-->
-        <section id="projects">
-            <div class="container">
-                <div class="project-wrapper">
-                    <h2 class="section-title dark-blue-text">Projects</h2>
-
-                    <!-- Each .row is a project -->
-                    <article class="row">
-                        <div class="project-wrapper__text">
-                            <h3 class="project-wrapper__text-title">
-                                Touutae-lab.github.io
-                            </h3>
-                            <p class="project-wrapper__text-info">
-                                This project is My website resume, i have use
-                                GitHub page for deployment also using Github
-                                Action to automate deploy on Amazon AWS S3
-                                Static HTML display.
-                            </p>
-                            <div class="project-wrapper__text-btns">
-                                <a
-                                    href="https://github.com/Touutae-lab/Touutae-lab.github.io"
-                                    target="_blank"
-                                    rel="Jenkins-DockerCompose"
-                                    class="cta-btn cta-btn--hero cta-btn--projects"
-                                    >Source code</a
-                                >
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="row">
-                        <div class="project-wrapper__text">
-                            <h3 class="project-wrapper__text-title">
-                                Peachy-Themes
-                            </h3>
-                            <p class="project-wrapper__text-info">
-                                Pastel Pink and Peach Visual Studio theme, I
-                                making this because i love pastel pink, this
-                                themes can bring you good experience while
-                                working for sure.
-                            </p>
-                            <div class="project-wrapper__text-btns">
-                                <a
-                                    href="https://github.com/Touutae-lab/Peachy-themes"
-                                    target="_blank"
-                                    rel="Peachy-Themes"
-                                    class="cta-btn cta-btn--hero cta-btn--projects"
-                                    >Source code</a
-                                >
-                                <a
-                                    href="https://marketplace.visualstudio.com/items?itemName=Piros-k.peachy-themes"
-                                    target="_blank"
-                                    class="cta-btn text-color-main"
-                                    >Marketplace</a
-                                >
-                            </div>
-                        </div>
-                    </article>
-
-                    <!-- /END Project -->
-                    <article class="row">
-                        <div class="project-wrapper__text">
-                            <h3 class="project-wrapper__text-title">
-                                FastGraduation-DockerCompose
-                            </h3>
-                            <p class="project-wrapper__text-info">
-                                This is most largest project for me, i have
-                                manage project as a first scrum while implement
-                                some software stack to it, such as Docker as
-                                Developments environment with python back-end
-                                and nextjs, typescript front-end.
-                            </p>
-                            <div class="project-wrapper__text-btns">
-                                <a
-                                    href="https://github.com/Touutae-lab/FastGraduation-DockerCompose"
-                                    target="_blank"
-                                    rel="FastGraduation-DockerCompose"
-                                    class="cta-btn cta-btn--hero cta-btn--projects"
-                                    >Source code</a
-                                >
-                            </div>
-                        </div>
-                    </article>
-                    <article class="row">
-                        <div class="project-wrapper__text">
-                            <h3 class="project-wrapper__text-title">
-                                For more projects like this, visit my GitHub
-                                profile.
-                            </h3>
-                            <div class="project-wrapper__text-btns">
-                                <a
-                                    href="https://www.github.com/Touutae-lab/"
-                                    target="_blank"
-                                    class="cta-btn text-color-main"
-                                    >Visit GitHub</a
-                                >
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-        <!-- End Projects Section -->
-
-        <!-- Contact Section -->
-        <section id="contact">
-            <div class="container">
-                <h2 class="section-title">Contact</h2>
-                <div class="contact-wrapper">
-                    <p class="contact-wrapper__text">
-                        To contact me, please consider using my email address
-                        <a style="color: black">touutae@pantakan.com</a> or my
-                        social profiles.
+        <main id="top">
+            <!-- HERO -->
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__badge">SOLO DEV / BANGKOK &mdash; SHAREHOLDER @ VOXEL WAVE STUDIO</div>
+                    <h1 class="hero__title">
+                        I BUILD<br />
+                        PRODUCTS<br />
+                        <span class="hero__title--accent">ALONE.</span>
+                    </h1>
+                    <p class="hero__sub">
+                        Solo dev shipping real products&mdash;desktop apps,
+                        gaming tools, developer themes. Shareholder at
+                        Voxel Wave Studio, where I dive deep into game
+                        products and solution consulting.
                     </p>
-                    <a
-                        href="mailto:touutae@pantakan.com"
-                        class="cta-btn cta-btn--resume"
-                        >Send Me Email</a
-                    >
-                </div>
-            </div>
-        </section>
-        <!-- END Contact Section -->
+                    <div class="hero__actions">
+                        <a class="btn btn--fill" href="#projects">SEE WORK</a>
+                        <a
+                            class="btn btn--outline"
+                            href="https://github.com/Touutae-labs"
+                            target="_blank"
+                            rel="noreferrer"
+                            >GITHUB &nearr;</a
+                        >
+                    </div>
 
-        <!-- Footer Section -->
-        <footer class="footer">
-            <div class="container">
-                <a href="#hero" class="back-to-top" aria-label="go back to top">
-                    <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-                </a>
-                <div class="social-links">
-                    <a
-                        href="https://twitter.com/iamtouutae"
-                        target="_blank"
-                        rel="iamtouutae"
-                        aria-label="twitter"
-                    >
-                        <i class="fa fa-twitter"></i>
-                    </a>
-                    <a
-                        href="https://www.instagram.com/Touutae/"
-                        target="_blank"
-                        rel="Touutae"
-                        aria-label="instagram"
-                    >
-                        <i class="fa fa-instagram"></i>
-                    </a>
-                    <a
-                        href="https://www.linkedin.com/in/pantakan-kanprawet-66239720b/"
-                        target="_blank"
-                        rel="Pantakan Kanprawet"
-                        aria-label="linkedin"
-                    >
-                        <i class="fa fa-linkedin"></i>
-                    </a>
-                    <a
-                        href="https://github.com/Touutae-lab"
-                        target="_blank"
-                        rel="Touutae-lab"
-                        aria-label="github"
-                    >
-                        <i class="fa fa-github"></i>
-                    </a>
+                    <div class="hero__tiles">
+                        <div class="tile tile--hot">
+                            <span class="tile__label">APPS</span>
+                            <span class="tile__desc">desktop tools, overlays, SaaS</span>
+                        </div>
+                        <div class="tile tile--cyan">
+                            <span class="tile__label">DEV TOOLS</span>
+                            <span class="tile__desc">themes, CLI, DX</span>
+                        </div>
+                        <div class="tile tile--yellow">
+                            <span class="tile__label">SYSTEMS</span>
+                            <span class="tile__desc">Docker, K8s, blockchain</span>
+                        </div>
+                    </div>
                 </div>
-                <hr />
-                <p class="footer__text">
-                    &copy; <span id="year"></span> - Edited
-                    <a
-                        href="https://github.com/Touutae-lab"
-                        target="_blank"
-                        rel="Touutae-lab"
-                        >Touutae-lab</a
-                    >.
-                </p>
+            </section>
+
+            <!-- PROJECTS -->
+            <section id="projects" class="section">
+                <div class="container">
+                    <div class="section-header">
+                        <span class="label">001</span>
+                        <h2>SHIPPED PRODUCTS</h2>
+                    </div>
+
+                    <div class="project-list">
+                        <article class="project project--big">
+                            <div class="project__head">
+                                <span class="project__type">DESKTOP APP</span>
+                                <span class="project__year">2026</span>
+                            </div>
+                            <h3 class="project__name">rytry.gg</h3>
+                            <p class="project__tagline">Rival tracker &amp; in-game overlay for League of Legends</p>
+                            <p class="project__desc">
+                                Windows app that tracks rivals and alerts you
+                                mid-match. In-game overlay, match history,
+                                cloud sync, freemium billing via Tebex.
+                                Built on Overwolf + Riot API. Free tier tracks
+                                25 rivals, premium goes to 200.
+                            </p>
+                            <div class="tags">
+                                <span>Windows</span>
+                                <span>Overwolf</span>
+                                <span>Cloud sync</span>
+                                <span>Riot API</span>
+                                <span>Freemium</span>
+                            </div>
+                            <div class="project__links">
+                                <a class="btn btn--fill" href="https://rytry.gg" target="_blank" rel="noreferrer">VISIT RYTRY.GG &nearr;</a>
+                            </div>
+                        </article>
+
+                        <article class="project project--big">
+                            <div class="project__head">
+                                <span class="project__type">THEME SUITE</span>
+                                <span class="project__year">2026</span>
+                            </div>
+                            <h3 class="project__name">Peachy Themes</h3>
+                            <p class="project__tagline">A cozy dark theme for your whole dev setup</p>
+                            <p class="project__desc">
+                                Two variants (Pink &amp; Peach) across VS Code,
+                                Neovim, WezTerm, and Oh My Posh. 19 colors
+                                from a single token file. Interactive playground
+                                on the site. Published on VS Code Marketplace.
+                            </p>
+                            <div class="tags">
+                                <span>VS Code</span>
+                                <span>Neovim</span>
+                                <span>WezTerm</span>
+                                <span>Design system</span>
+                            </div>
+                            <div class="project__links">
+                                <a class="btn btn--fill" href="https://peachytheme.party" target="_blank" rel="noreferrer">VISIT SITE &nearr;</a>
+                                <a class="btn btn--outline" href="https://github.com/Touutae-labs/Peachy-themes" target="_blank" rel="noreferrer">SOURCE</a>
+                            </div>
+                        </article>
+
+                        <article class="project">
+                            <div class="project__head">
+                                <span class="project__type">FULL-STACK</span>
+                                <span class="project__year">2024</span>
+                            </div>
+                            <h3 class="project__name">FastGraduation</h3>
+                            <p class="project__desc">
+                                Docker + Python backend + Next.js frontend.
+                                Led as scrum master. Full CI/CD pipeline from
+                                local to production.
+                            </p>
+                            <div class="tags">
+                                <span>Docker</span>
+                                <span>Python</span>
+                                <span>Next.js</span>
+                                <span>TypeScript</span>
+                            </div>
+                            <div class="project__links">
+                                <a class="btn btn--outline" href="https://github.com/Touutae-labs/FastGraduation-DockerCompose" target="_blank" rel="noreferrer">SOURCE</a>
+                            </div>
+                        </article>
+
+                        <article class="project project--accent">
+                            <div class="project__head">
+                                <span class="project__type">90+ REPOS</span>
+                            </div>
+                            <h3 class="project__name">GitHub</h3>
+                            <p class="project__desc">
+                                Blockchain experiments, Ethereum tooling (reth,
+                                go-ethereum), REST APIs, algorithms, infra.
+                                Everything in the open.
+                            </p>
+                            <div class="tags">
+                                <span>Go</span>
+                                <span>Rust</span>
+                                <span>Java</span>
+                                <span>Solidity</span>
+                            </div>
+                            <div class="project__links">
+                                <a class="btn btn--fill" href="https://github.com/Touutae-labs" target="_blank" rel="noreferrer">BROWSE ALL &nearr;</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ABOUT -->
+            <section id="about" class="section">
+                <div class="container">
+                    <div class="section-header">
+                        <span class="label">002</span>
+                        <h2>ABOUT ME</h2>
+                    </div>
+
+                    <div class="about-grid">
+                        <div class="about-block about-block--main">
+                            <h3>I own every layer.</h3>
+                            <p>
+                                Design, frontend, backend, infra, billing,
+                                deployment. That's how rytry.gg and Peachy
+                                Themes went from ideas to shipped products.
+                                CS degree from Chiang Mai University.
+                            </p>
+                            <div class="tags tags--skills">
+                                <span>TypeScript</span>
+                                <span>Python</span>
+                                <span>Go</span>
+                                <span>Rust</span>
+                                <span>Java</span>
+                                <span>Docker</span>
+                                <span>Kubernetes</span>
+                                <span>Solidity</span>
+                                <span>GitHub Actions</span>
+                            </div>
+                        </div>
+
+                        <div class="about-block">
+                            <h3>Product builder</h3>
+                            <p>
+                                Idea to landing page to billing to production.
+                                rytry.gg runs freemium with cloud sync and
+                                payment processing&mdash;all built by one
+                                person.
+                            </p>
+                        </div>
+
+                        <div class="about-block">
+                            <h3>Blockchain native</h3>
+                            <p>
+                                Deep in Ethereum tooling. Contributing to
+                                reth, go-ethereum, Solidity compilers.
+                                Comfortable with EVM internals and
+                                distributed systems.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTACT -->
+            <section id="contact" class="section">
+                <div class="container">
+                    <div class="contact-block">
+                        <div class="section-header">
+                            <span class="label">003</span>
+                            <h2>CONTACT</h2>
+                        </div>
+
+                        <div class="contact-split">
+                            <div class="contact-col">
+                                <h3 class="contact-col__heading">GAME PRODUCTS &amp; CONSULTING</h3>
+                                <p class="contact-block__text">
+                                    Deep into game products, solution consulting,
+                                    or Voxel Wave Studio inquiries?
+                                </p>
+                                <a class="btn btn--fill" href="mailto:pantakan.k@voxelwavestudio.com">PANTAKAN.K@VOXELWAVESTUDIO.COM</a>
+                            </div>
+
+                            <div class="contact-col">
+                                <h3 class="contact-col__heading">ELSEWHERE</h3>
+                                <div class="contact-links">
+                                    <a class="btn btn--outline" href="https://github.com/Touutae-labs" target="_blank" rel="noreferrer">GITHUB</a>
+                                    <a class="btn btn--outline" href="https://twitter.com/iamtouutae" target="_blank" rel="noreferrer">TWITTER</a>
+                                    <a class="btn btn--outline" href="https://www.linkedin.com/in/pantakan-kanprawet/" target="_blank" rel="noreferrer">LINKEDIN</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container footer-bar">
+                <p>&copy; <span id="year"></span> PANTAKAN</p>
+                <p>BUILT SOLO. SHIPPED SOLO.</p>
+                <a href="#top">[TOP]</a>
             </div>
         </footer>
-        <!-- END Footer Section -->
 
-        <!-- POPUP -->
-        <div class="popup" id="popup">
-            <div class="popup__content">
-                <a href="#" class="popup__close">&times;</a>
-                <div class="popup__get-in-touch">
-                    <h2 class="popup__title--main">
-                        Let's start our conversation
-                    </h2>
-                    <h3 class="popup__title--sub">
-                        Please reach out to me through the contact form below
-                    </h3>
-                </div>
-                <a
-                    class="popup__icon"
-                    href="https://www.linkedin.com/in/pantakan-kanprawet-66239720b/"
-                    ><img src="./assets/linkedin-ar21.svg" alt="linkedin"
-                /></a>
-                <a class="popup__icon" href=" https://twitter.com/iamtouutae"
-                    ><img src="./assets/twitter-ar21.svg" alt="twitter"
-                /></a>
-                <a class="popup__icon" href="https://www.instagram.com/touutae/"
-                    ><img src="./assets/instagram-ar21.svg" alt="instagram"
-                /></a>
-            </div>
-        </div>
-        <!-- END POPUP -->
         <script>
             document.getElementById('year').textContent =
                 new Date().getFullYear()
-            document
-                .getElementById('__about')
-                .addEventListener('click', function () {
-                    document.getElementById('navi-toggle').checked = false
-                })
-            document
-                .getElementById('__project')
-                .addEventListener('click', function () {
-                    document.getElementById('navi-toggle').checked = false
-                })
-            document
-                .getElementById('__contact')
-                .addEventListener('click', function () {
-                    document.getElementById('navi-toggle').checked = false
-                })
         </script>
     </body>
 </html>

@@ -1,28 +1,23 @@
 {
-    "name": "touutae-site",
+    "name": "touutae-lab-site",
     "version": "1.0.0",
-    "description": "A personal website",
+    "description": "A personal portfolio for frontend, cloud-native, and full-stack work",
     "main": "index.js",
     "scripts": {
-        "compile:sass": "node-sass ./style/main.scss ./style.css",
-        "prettier": "prettier --ignore-path .nolint *",
+        "prettier": "prettier .prettierrc .github/**/*.yml assets/**/*.svg index.html package*.json README.md style.css --ignore-path .nolint",
         "lint": "npm run prettier -- --check",
         "lint:fix": "npm run prettier -- --write"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Touutae-lab/personal-website.git"
+        "url": "git+https://github.com/Touutae-labs/Touutae-labs.github.io.git"
     },
-    "author": "Pantakan Kanprawet",
-    "email": "pantakan.totae@gmail.com",
+    "author": "Touutae Lab",
     "license": "Apache-2.0",
     "bugs": {
-        "url": "https://github.com/Touutae-lab/personal-website/issues"
+        "url": "https://github.com/Touutae-labs/Touutae-labs.github.io/issues"
     },
-    "homepage": "https://github.com/Touutae-lab/personal-website#readme",
-    "dependencies": {
-        "node-sass": "^8.0.0"
-    },
+    "homepage": "https://github.com/Touutae-labs/Touutae-labs.github.io#readme",
     "devDependencies": {
         "prettier": "^2.8.3"
     }
